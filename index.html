@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#home" class="active">CM</a>
+        <div id="myLinks">
+            <a href="#bio" class="navLink">About Me</a>
+            <a href="#projects" class="navLink">Projects</a>
+            <a href="#skills" class="navLink">Skills</a>
+            <a href="#contact" class="navLink">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main class="mainContainer">
+        <header role="banner" id="home">
+                <h1>Chris MacDonald</h1>
+                <h3>Software Engineer</h3>
+                <img src="images/domino 1.jpg" alt="domino sitting" class="images">
+                <h3>Let's do this</h3>
+        </header>
+
+        <section class="main" id="bio">
+            <h2>About Me</h2>
+            <p>I am a current student enrolled in the Software Engineering Flex program at Thinkful.  I really enjoy coding because it gives me the opportunity to solve problems and see my creations come to life.  I love completing projects, learning new materials and languages, and interacting with new programs.</p>
+            <p>When I'm not learning, I'm chasing after my kids.  I have three daughters (14, 4, 2), so my hands are completely full.  When I have free time I love playing video games and watching football.  Though the mountain of laundry I have keeps me from that most of the time.</p>
+        </section>
+
+        <section class="main" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Title: Quiz App</li>
+                <li>Description: I created a quiz app based on the 90's hit show "Married with Children".</li>
+                <li>I used HTML, CSS, Javascript (JQuery)</li> 
+                <li>Repo<a href= "https://github.com/cmacdonald131/Quiz-App.git" alt= "github" class= "github"></a></li>
+                <li>Live app<a href= "https://cmacdonald131.github.io/Quiz-App/" alt= "projLink" class= "projLink"></a></li>
+            </ul>
+        </section>
+
+        <section class="main" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>JQuery</li>
+            </ul>
+        </section>
+
+        <section class="main" id="contact">
+            <h2>Keep in Touch</h2>
+            <li>cmacdonald131@gmail.com</li>
+            <li><a href="https://github.com/cmacdonald131">GitHub</li>
+            
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+        
+    </main>
+</body>
+</html>
