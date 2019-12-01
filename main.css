@@ -11,12 +11,12 @@ li {
     font-size: 16px;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 320px) {
     .navbar {
         background-color: #ffffff;
         color: #001f2b;
         font-family: 'Crimson Text', serif;
-        font-size: 18px;
+        font-size: 20px;
         position: fixed;
         overflow: hidden;
         width: 100%;
@@ -26,7 +26,7 @@ li {
     .navbar a {
         color: #001f2b;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 20px;
         display: inline-block;
         padding: 10px 12px;
         text-align: center;
@@ -50,14 +50,14 @@ li {
     
     header {
         /*background-color: #00b8ff;*/
-        background: url(images/futurebackground.jpg);
+        background: url(images/futurebackground3.jpg);
         background-size: cover;
         min-height: 400px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        padding: 10% 0;
+        padding: 5% 0;
     }
     
     h1 {
@@ -71,7 +71,6 @@ li {
         font-family: 'Julius Sans One', sans-serif;
         color: #ffffff;
         text-align: center;
-        text-decoration-line: underline;
     }
 
     h3 {
@@ -82,7 +81,7 @@ li {
     
     p {
         font-family: 'Crimson Text', serif;
-        font-size: 18px;
+        font-size: 20px;
         color: #ffffff;
         padding-left: 10px;
         padding-right: 10px;
@@ -110,8 +109,9 @@ li {
     }
     
     #projects {       
-        background: url(images/futurebackground.jpg);
+        background: url(images/2ndBackground.jpg);
         background-size: cover;
+        background-blend-mode: color-burn;
         min-height: 400px;
         font-family: 'Crimson Text', serif;
         color: #ffffff;
@@ -134,7 +134,8 @@ li {
         text-align: center;
         justify-content: space-around;
         width: 33%;     
-        cursor: pointer;
+        
+        
     }
     
     .btn-link {
@@ -144,7 +145,10 @@ li {
         background-color: magenta;
         border: 1px solid #ffffff;
         padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         border-radius: 2%;
+        cursor: pointer;
     }
 
     .btn-live {
@@ -154,14 +158,17 @@ li {
         background-color: black;
         border: 1px solid #ffffff;
         padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         border-radius: 2%;
+
     }
 
 
     #skills {        
         background-color: #00415a;
         font-family: 'Crimson Text', serif;
-        font-size: 16px;
+        font-size: 20px;
         color: #ffffff;
         display: flex;
         justify-content: space-between;
@@ -169,7 +176,7 @@ li {
     }
     
     #contact {
-        padding: 10px 10px;
+        padding: 5px 5px;
         background-color: #001f2b;
         font-family: 'Crimson Text', serif;
         font-size: 14px;
@@ -183,6 +190,7 @@ li {
         justify-content: center;
         text-align: center;
         width: 30%;
+        margin-left: 10px;
         
     }
     
@@ -193,9 +201,10 @@ li {
         background-color: magenta;
         border: 1px solid #ffffff;
         padding: 10px;
-        margin-left: auto;
+        margin-left: 5px;
         border-radius: 2%;
         display: inline-block;
+        
     }
 
     .gitHub {
@@ -209,7 +218,8 @@ li {
         display:inline-block;
     }
 
-    .linkedin {font-size: 16px;
+    .linkedin {
+        font-size: 16px;
         text-align: center;
         color: #ffffff;
         background-color: blue;
@@ -258,8 +268,6 @@ li {
     }
     
     header {
-        background: url(images/futurebackground.jpg);
-        background-size: cover;
         min-height: 1000px;
         display: flex;
         justify-content: space-around;
@@ -292,7 +300,7 @@ li {
         color: #ffffff;
         padding-left: 10px;
         padding-right: 10px;
-        text-align: center;
+        text-align: left;
     }
 
     .images {
@@ -307,7 +315,7 @@ li {
     
     #bio {
         min-height: 100px;
-        padding: 10% 0;
+        padding: 2% 0;
         background-color: #009bd6;
         font-family: 'Crimson Text', serif;
         color: #ffffff;
@@ -315,35 +323,28 @@ li {
     
     #projects {
         min-height: 100px;
-        padding: 10% 0;
+        padding: 2% 0;
         background-color: #00719c;
         font-family: 'Crimson Text', serif;
-        font-size: 14px;
+        font-size: 18px;
         color: #ffffff;
     }
     
     #skills {
-        
-        padding: 10% 0;
         background-color: #00415a;
         font-family: 'Crimson Text', serif;
-        font-size: 14px;
+        font-size: 18px;
         color: #ffffff;
     }
     
     #contact {
-        min-height: 20px;
-        padding: 10px 10px;
         background-color: #001f2b;
         font-family: 'Crimson Text', serif;
         font-size: 14px;
         color: #ffffff;
     }
 
-    .cont {
-        width: 10%;
-        
-    }
+    
 }
 
 
@@ -384,8 +385,6 @@ li {
     }
     
     header {
-        background: url(images/futurebackground.jpg);
-        background-size: cover;
         min-height: 1200px;
         display: flex;
         justify-content: space-around;
@@ -454,7 +453,6 @@ li {
     }
     
     #skills {
-        padding: 5% 0;
         background-color: #00415a;
         font-family: 'Crimson Text', serif;
         font-size: 14px;
@@ -462,8 +460,6 @@ li {
     }
     
     #contact {
-        min-height: 20px;
-        padding: 5% 0;
         background-color: #001f2b;
         font-family: 'Crimson Text', serif;
         font-size: 14px;
