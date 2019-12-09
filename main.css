@@ -25,7 +25,6 @@ header {
     background: url(images/futurebackground3.jpg);
     background-size: cover;
     background-position: center center;
-    background-blend-mode: darken;
 }
 
 #projects {
