@@ -1,7 +1,7 @@
-# Portfolio
+# Portfolio :desktop_computer: :hammer: :man_facepalming: :vulcan_salute:
 Shows my journey through my coding experience
 
-https://cmacdonald131.github.io/Portfolio-v1/
+https://cmacdonald131.github.io/Portfolio/
 
 ## Screenshots
 
