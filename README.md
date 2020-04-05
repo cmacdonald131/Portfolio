@@ -9,7 +9,9 @@ https://cmacdonald131.github.io/Portfolio/
 
 ![screenshot2](images/proj2.png)
 
+![screenshot3](images/proj3.png)
+
 
 ## Technology
 
-_**HTML, CSS, Javascript, jQuery**_
+_**React, Node, Express, PostgreSQL, HTML, CSS, Javascript, jQuery**_
